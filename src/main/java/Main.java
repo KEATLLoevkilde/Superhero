@@ -12,6 +12,9 @@ public class Main {
         int creationYear;
         double strengh;
 
+        Database db = new Database();
+
+
         int userChoice;
 
         System.out.println("1. Create superhero. \n9. End program.");
@@ -37,10 +40,10 @@ public class Main {
             System.out.println("Type in strengh value:");
             strengh = sc.nextDouble();
 
-            Superhero hero1 = new Superhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
+            db.addSuperhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
 
             System.out.println();
-            System.out.println(hero1);
+            System.out.println(db.getSuperhero(0));
         }
 
 
