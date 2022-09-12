@@ -5,13 +5,6 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        String superheroName;
-        String civilianName;
-        String superPower;
-        boolean isHuman;
-        int creationYear;
-        double strengh;
-
         Database db = new Database();
 
         while (true){
@@ -23,22 +16,22 @@ public class Main {
 
             if (userChoice == 1) {
                 System.out.print("Type in superheroName: ");
-                superheroName = sc.next();
+                String superheroName = sc.next();
 
                 System.out.print("Type in civilianName: ");
-                civilianName = sc.next();
+                String civilianName = sc.next();
 
                 System.out.print("Type in superPower: ");
-                superPower = sc.next();
+                String superPower = sc.next();
 
                 System.out.print("Is the superhero human? (true/false): ");
-                isHuman = sc.nextBoolean();
+                boolean isHuman = sc.nextBoolean();
 
                 System.out.print("Type in creationYear: ");
-                creationYear = sc.nextInt();
+                int creationYear = sc.nextInt();
 
                 System.out.print("Type in strengh value: ");
-                strengh = sc.nextDouble();
+                double strengh = sc.nextDouble();
 
                 db.addSuperhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
 
