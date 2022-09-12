@@ -3,8 +3,8 @@ public class Database {
     private int numberOfHeroes = 0;
 
 
-    public Superhero getSuperhero(int heroNumber) {
-        return superheroes[heroNumber];
+    public Superhero getSuperhero(int index) {
+        return superheroes[index];
     }
 
     public void addSuperhero(String superheroName, String civilianName, String superPower, boolean isHuman, int creationYear, double strengh) {

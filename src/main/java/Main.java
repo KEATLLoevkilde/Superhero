@@ -19,17 +19,17 @@ public class Main {
 
             System.out.println("1. Create superhero. \n9. End program.");
             userChoice = sc.nextInt();
-            sc.nextLine();
+
 
             if (userChoice == 1) {
                 System.out.print("Type in superheroName: ");
-                superheroName = sc.nextLine();
+                superheroName = sc.next();
 
                 System.out.print("Type in civilianName: ");
-                civilianName = sc.nextLine();
+                civilianName = sc.next();
 
                 System.out.print("Type in superPower: ");
-                superPower = sc.nextLine();
+                superPower = sc.next();
 
                 System.out.print("Is the superhero human? (true/false): ");
                 isHuman = sc.nextBoolean();
