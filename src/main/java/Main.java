@@ -14,41 +14,47 @@ public class Main {
 
         Database db = new Database();
 
+        while (true){
+            int userChoice;
 
-        int userChoice;
+            System.out.println("1. Create superhero. \n9. End program.");
+            userChoice = sc.nextInt();
+            sc.nextLine();
 
-        System.out.println("1. Create superhero. \n9. End program.");
-        userChoice = sc.nextInt();
-        sc.nextLine();
+            if (userChoice == 1) {
+                System.out.print("Type in superheroName: ");
+                superheroName = sc.nextLine();
 
-        if (userChoice == 1) {
-            System.out.println("Type in superheroName:");
-            superheroName = sc.nextLine();
+                System.out.print("Type in civilianName: ");
+                civilianName = sc.nextLine();
 
-            System.out.println("Type in civilianName:");
-            civilianName = sc.nextLine();
+                System.out.print("Type in superPower: ");
+                superPower = sc.nextLine();
 
-            System.out.println("Type in superPower:");
-            superPower = sc.nextLine();
+                System.out.print("Is the superhero human? (true/false): ");
+                isHuman = sc.nextBoolean();
 
-            System.out.println("Is the superhero human? (true/false):");
-            isHuman = sc.nextBoolean();
+                System.out.print("Type in creationYear: ");
+                creationYear = sc.nextInt();
 
-            System.out.println("Type in creationYear:");
-            creationYear = sc.nextInt();
+                System.out.print("Type in strengh value: ");
+                strengh = sc.nextDouble();
 
-            System.out.println("Type in strengh value:");
-            strengh = sc.nextDouble();
+                db.addSuperhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
 
-            db.addSuperhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
+                System.out.println("\nSuperhero stored!");
+                System.out.println('\n');
 
-            System.out.println();
-            System.out.println(db.getSuperhero(0));
+            } else {
+                break;
+            }
         }
 
-
-
-
+//        System.out.println(db.getSuperhero(0));
+//        System.out.println(db.getSuperhero(1));
+//        System.out.println(db.getSuperhero(2));
+//        System.out.println(db.getSuperhero(3));
+//        System.out.println(db.getSuperhero(4));
 
     }
 }
