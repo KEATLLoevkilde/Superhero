@@ -13,6 +13,7 @@ public class Main {
             System.out.println("""
                             VELCOME TO THE SUPERHERO DATABASE
                             1. Create superhero. 
+                            2. Display all superheroes.
                             9. End program.
                             """);
 
@@ -43,6 +44,12 @@ public class Main {
 
                 System.out.println("\nSuperhero stored!");
                 System.out.println('\n');
+
+            } else if (userChoice == 2) {
+                for (Superhero i: db.getAllSuperheroes()) {
+                    System.out.println(i);
+                    System.out.println('\n');
+                }
 
             } else {
                 System.exit(0);

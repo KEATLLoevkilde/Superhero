@@ -13,6 +13,10 @@ public class Database {
         Superhero newHero = new Superhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
         superheroes.add(newHero);
     }
+
+    public ArrayList<Superhero> getAllSuperheroes() {
+        return superheroes;
+    }
 }
 
 
