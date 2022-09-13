@@ -10,19 +10,25 @@ public class Main {
         while (true){
             int userChoice;
 
-            System.out.println("1. Create superhero. \n9. End program.");
+            System.out.println("""
+                            VELCOME TO THE SUPERHERO DATABASE
+                            1. Create superhero. 
+                            9. End program.
+                            """);
+
             userChoice = sc.nextInt();
+            sc.nextLine();
 
 
             if (userChoice == 1) {
                 System.out.print("Type in superheroName: ");
-                String superheroName = sc.next();
+                String superheroName = sc.nextLine();
 
                 System.out.print("Type in civilianName: ");
-                String civilianName = sc.next();
+                String civilianName = sc.nextLine();
 
                 System.out.print("Type in superPower: ");
-                String superPower = sc.next();
+                String superPower = sc.nextLine();
 
                 System.out.print("Is the superhero human? (true/false): ");
                 boolean isHuman = sc.nextBoolean();
@@ -39,15 +45,9 @@ public class Main {
                 System.out.println('\n');
 
             } else {
-                break;
+                System.exit(0);
             }
         }
-
-//        System.out.println(db.getSuperhero(0));
-//        System.out.println(db.getSuperhero(1));
-//        System.out.println(db.getSuperhero(2));
-//        System.out.println(db.getSuperhero(3));
-//        System.out.println(db.getSuperhero(4));
 
     }
 }
