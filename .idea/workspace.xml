@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="gitignore ændring&#10;out/&#10;.idea/">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ef25tAJJSKmrQlvi3Oq0y3G2F8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="" />
+      <created>1662972139994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662972139994</updated>
+      <workItem from="1662972141390" duration="9863000" />
+      <workItem from="1663065322967" duration="9950000" />
+    </task>
+    <task id="LOCAL-00001" summary="1. commit">
+      <created>1662972229867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662972229867</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Superhero class w. constructor, getters, setters and toString.">
+      <created>1662974480916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662974480916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added user interface in main">
+      <created>1662975332331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662975332331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added more user interface in main">
+      <created>1662975818610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662975818610</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Database class with addSuperhero() and getSuperhero().">
+      <created>1662976909712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662976909712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Database class with addSuperhero() and getSuperhero().">
+      <created>1662977203673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662977203673</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added user interface with loop to ask for superhero">
+      <created>1662980140404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662980140404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed nextLine to next in main">
+      <created>1662982750176</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662982750176</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Main: instancieted variables in loop">
+      <created>1662983444853</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662983444853</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Main: &#10;next() to nextLine()&#10;Better String in welcome screen&#10;System.exit instead of break">
+      <created>1663068214758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663068214758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="gitignore">
+      <created>1663068669970</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663068669970</updated>
+    </task>
+    <task id="LOCAL-00012" summary="superheroes is ArrayList">
+      <created>1663071333848</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663071333848</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added getAllSuperheroes + option 2. in start menu">
+      <created>1663072884922</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663072884922</updated>
+    </task>
+    <task id="LOCAL-00014" summary="isHuman is now a String">
+      <created>1663073943865</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663073943865</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finetuned print for option 2.">
+      <created>1663074707162</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663074707162</updated>
+    </task>
+    <task id="LOCAL-00016" summary="gitignore ændring&#10;out/&#10;.idea/">
+      <created>1663075607532</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663075607532</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. commit" />
+    <MESSAGE value="Added Superhero class w. constructor, getters, setters and toString." />
+    <MESSAGE value="Added user interface in main" />
+    <MESSAGE value="Added more user interface in main" />
+    <MESSAGE value="Added Database class with addSuperhero() and getSuperhero().&#10;updated main to use Database methods." />
+    <MESSAGE value="Added Database class with addSuperhero() and getSuperhero()." />
+    <MESSAGE value="Added user interface with loop to ask for superhero" />
+    <MESSAGE value="changed get superhero parametername to index" />
+    <MESSAGE value="changed nextLine to next in main" />
+    <MESSAGE value="Main: instancieted variables in loop" />
+    <MESSAGE value="Main: &#10;next() to nextLine()&#10;Better String in welcome screen&#10;System.exit instead of break" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="superheroes is ArrayList" />
+    <MESSAGE value="added getAllSuperheroes + option 2. in start menu" />
+    <MESSAGE value="isHuman is now a String" />
+    <MESSAGE value="Finetuned print for option 2." />
+    <MESSAGE value="gitignore ændring&#10;out/&#10;.idea/" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore ændring&#10;out/&#10;.idea/" />
+  </component>
+</project>
