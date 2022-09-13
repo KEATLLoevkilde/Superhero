@@ -2,11 +2,11 @@ public class Superhero {
     private String superheroName;
     private String civilianName;
     private String superPower;
-    private boolean isHuman;
+    private String isHuman;
     private int creationYear;
     private double strengh;
 
-    public Superhero(String superheroName, String civilianName, String superPower, boolean isHuman, int creationYear, double strengh) {
+    public Superhero(String superheroName, String civilianName, String superPower, String isHuman, int creationYear, double strengh) {
         this.superheroName = superheroName;
         this.civilianName = civilianName;
         this.superPower = superPower;
@@ -29,7 +29,7 @@ public class Superhero {
         return superPower;
     }
 
-    public boolean isHuman() {
+    public String isHuman() {
         return isHuman;
     }
 
@@ -55,7 +55,7 @@ public class Superhero {
         this.superPower = superPower;
     }
 
-    public void setIsHuman(boolean isHuman) {
+    public void setIsHuman(String isHuman) {
         this.isHuman = isHuman;
     }
 

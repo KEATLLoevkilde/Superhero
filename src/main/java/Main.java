@@ -31,8 +31,8 @@ public class Main {
                 System.out.print("Type in superPower: ");
                 String superPower = sc.nextLine();
 
-                System.out.print("Is the superhero human? (true/false): ");
-                boolean isHuman = sc.nextBoolean();
+                System.out.print("Is the superhero human? (Yes/No): ");
+                String isHuman = sc.next();
 
                 System.out.print("Type in creationYear: ");
                 int creationYear = sc.nextInt();
