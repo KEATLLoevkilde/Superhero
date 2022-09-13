@@ -1,15 +1,17 @@
+import java.util.ArrayList;
+
 public class Database {
-    private Superhero[] superheroes = new Superhero[5];
-    private int numberOfHeroes = 0;
+    private ArrayList<Superhero> superheroes = new ArrayList<>();
+
 
 
     public Superhero getSuperhero(int index) {
-        return superheroes[index];
+        return superheroes.get(index);
     }
 
     public void addSuperhero(String superheroName, String civilianName, String superPower, boolean isHuman, int creationYear, double strengh) {
         Superhero newHero = new Superhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
-        superheroes[numberOfHeroes++] = newHero;
+        superheroes.add(newHero);
     }
 }
 
