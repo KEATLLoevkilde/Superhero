@@ -46,6 +46,7 @@ public class Main {
                 System.out.println('\n');
 
             } else if (userChoice == 2) {
+                System.out.println("\nList of all superheroes:");
                 for (Superhero i: db.getAllSuperheroes()) {
                     System.out.println(i);
                     System.out.println('\n');
