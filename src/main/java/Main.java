@@ -12,7 +12,7 @@ public class Main {
 
             System.out.println("""
                             VELCOME TO THE SUPERHERO DATABASE
-                            1. Create superhero. 
+                            1. Create superhero.
                             2. Display all superheroes.
                             9. End program.
                             """);
