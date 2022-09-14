@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="added searchSuperhero to Database class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <workItem from="1662972141390" duration="9863000" />
       <workItem from="1663065322967" duration="11122000" />
       <workItem from="1663136824847" duration="3305000" />
-      <workItem from="1663146280969" duration="2445000" />
+      <workItem from="1663146280969" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -187,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663148233920</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added searchSuperhero to Database class">
+      <created>1663149095143</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663149095143</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +229,7 @@
     <MESSAGE value="Finetuned print for option 2." />
     <MESSAGE value="gitignore ændring&#10;out/&#10;.idea/" />
     <MESSAGE value="gitignore ændring&#10;igen" />
+    <MESSAGE value="searchSuperhero returns Superhero" />
     <MESSAGE value="added searchSuperhero to Database class" />
     <option name="LAST_COMMIT_MESSAGE" value="added searchSuperhero to Database class" />
   </component>

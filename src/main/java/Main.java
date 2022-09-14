@@ -53,6 +53,11 @@ public class Main {
                     System.out.println('\n');
                 }
 
+            } else if (userChoice == 3) {
+                System.out.println("Type in name, or part of name, of the superhero you wish to find: ");
+                System.out.println(db.searchSuperhero(sc.nextLine()));
+                System.out.println();
+                // TODO: 14-09-2022 Kan ikke oprette en Superhero som variabel så jeg kan håndtere null på en pæn måde.
             } else {
                 System.exit(0);
             }
