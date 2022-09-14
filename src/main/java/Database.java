@@ -16,6 +16,17 @@ public class Database {
     public ArrayList<Superhero> getAllSuperheroes() {
         return superheroes;
     }
+
+    public Superhero searchSuperhero (String name) {
+        Superhero tempSuper = null;
+        for (Superhero i: superheroes) {
+            if(i.getSuperheroName().equalsIgnoreCase(name) || i.getSuperheroName().contains(name)) {
+                tempSuper = i;
+                break;
+            }
+        }
+        return tempSuper;
+    }
 }
 
 

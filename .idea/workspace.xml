@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="gitignore ændring&#10;out/&#10;.idea/">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="added searchSuperhero to Database class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,9 @@
       <option name="presentableId" value="Default" />
       <updated>1662972139994</updated>
       <workItem from="1662972141390" duration="9863000" />
-      <workItem from="1663065322967" duration="9950000" />
+      <workItem from="1663065322967" duration="11122000" />
+      <workItem from="1663136824847" duration="3305000" />
+      <workItem from="1663146280969" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -166,7 +166,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663075607532</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="gitignore ændring&#10;igen">
+      <created>1663076463133</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663076463133</updated>
+    </task>
+    <task id="LOCAL-00018" summary="gitignore ændring&#10;igen">
+      <created>1663076586945</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663076586945</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added searchSuperhero to Database class">
+      <created>1663148233920</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663148233920</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +222,8 @@
     <MESSAGE value="isHuman is now a String" />
     <MESSAGE value="Finetuned print for option 2." />
     <MESSAGE value="gitignore ændring&#10;out/&#10;.idea/" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore ændring&#10;out/&#10;.idea/" />
+    <MESSAGE value="gitignore ændring&#10;igen" />
+    <MESSAGE value="added searchSuperhero to Database class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added searchSuperhero to Database class" />
   </component>
 </project>

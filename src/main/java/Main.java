@@ -14,6 +14,7 @@ public class Main {
                             VELCOME TO THE SUPERHERO DATABASE
                             1. Create superhero.
                             2. Display all superheroes.
+                            3. Search superhero.
                             9. End program.
                             """);
 
