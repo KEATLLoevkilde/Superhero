@@ -12,6 +12,7 @@ public class Main {
         while (true){
             int userChoice;
 
+
             System.out.println("""
                             VELCOME TO THE SUPERHERO DATABASE
                             1. Create superhero.
@@ -76,8 +77,15 @@ public class Main {
 
     public static void searchSuperhero(){
         System.out.println("Type in name, or part of name, of the superhero you wish to find: ");
-        System.out.println(db.searchSuperhero(sc.nextLine()));
+        String searchName = sc.nextLine();
         System.out.println();
-        // TODO: 14-09-2022 Kan ikke oprette en Superhero som variabel så jeg kan håndtere null på en pæn måde.
+        Superhero tempSuperhero = new Superhero(db.searchSuperhero(searchName));
+
+        if (tempSuperhero == null) { // TODO: 14-09-2022 Løs nullpointer exeption
+            System.out.println("No superhero found with the name: " + searchName);
+        } else {
+            System.out.println("Superhero found:\n" + tempSuperhero);
+        }
+        System.out.println();
     }
 }

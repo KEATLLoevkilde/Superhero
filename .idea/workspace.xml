@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="added userChoise 3 with print statements.">
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="main methods:&#10;createSuperhero()&#10;displayAllSuperheroes()&#10;searchSuperhero()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Superhero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Superhero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,8 @@
       <workItem from="1662972141390" duration="9863000" />
       <workItem from="1663065322967" duration="11122000" />
       <workItem from="1663136824847" duration="3305000" />
-      <workItem from="1663146280969" duration="5005000" />
+      <workItem from="1663146280969" duration="5653000" />
+      <workItem from="1663154761012" duration="1303000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663150590351</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="main methods:&#10;createSuperhero()&#10;displayAllSuperheroes()&#10;searchSuperhero()">
+      <created>1663151580152</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663151580152</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +248,7 @@
     <MESSAGE value="searchSuperhero returns Superhero" />
     <MESSAGE value="added searchSuperhero to Database class" />
     <MESSAGE value="added userChoise 3 with print statements." />
-    <option name="LAST_COMMIT_MESSAGE" value="added userChoise 3 with print statements." />
+    <MESSAGE value="main methods:&#10;createSuperhero()&#10;displayAllSuperheroes()&#10;searchSuperhero()" />
+    <option name="LAST_COMMIT_MESSAGE" value="main methods:&#10;createSuperhero()&#10;displayAllSuperheroes()&#10;searchSuperhero()" />
   </component>
 </project>

@@ -16,6 +16,15 @@ public class Superhero {
 
     }
 
+    public Superhero(Superhero source) {
+        this.superheroName = source.superheroName;
+        this.civilianName = source.civilianName;
+        this.superPower = source.superPower;
+        this.isHuman = source.isHuman;
+        this.creationYear = source.creationYear;
+        this.strengh = source.strengh;
+    }
+
     //Gettere
     public String getSuperheroName() {
         return superheroName;
