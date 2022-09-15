@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static Scanner sc = new Scanner(System.in);
-    static Database db = new Database();
+
 
     public static void main(String[] args) {
 
