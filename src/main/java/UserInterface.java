@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 
@@ -38,7 +39,7 @@ public class UserInterface {
 
 
         } else if (userChoice == 3) {
-            searchSuperhero();
+            searchSuperheroes();
 
         }
     }
@@ -54,15 +55,15 @@ public class UserInterface {
         String superPower = sc.nextLine();
 
         System.out.print("Is the superhero human? (Yes/No): ");
-        String isHuman = sc.next();
+        String isHuman = sc.nextLine();
 
         System.out.print("Type in creationYear: ");
-        int creationYear = sc.nextInt();
+        String creationYear = sc.nextLine();
 
         System.out.print("Type in strengh value: ");
-        double strengh = sc.nextDouble();
+        String strengh = sc.nextLine();
 
-        db.addSuperhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
+        db.addSuperhero(superheroName, civilianName, superPower, isHuman, Integer.parseInt(creationYear), Double.parseDouble(strengh));
 
         System.out.println("\nSuperhero stored!");
         System.out.println('\n');
@@ -76,12 +77,15 @@ public class UserInterface {
         }
     }
 
-    public void searchSuperhero(){
+    public void searchSuperheroes(){
         System.out.println("Type in name, or part of name, of the superhero you wish to find: ");
         String searchName = sc.nextLine();
         System.out.println();
-        if(db.searchSuperhero(searchName) != null) {
-            System.out.println("Superhero found:\n\n" + db.searchSuperhero(searchName));
+        if(!db.searchSuperheroes(searchName).isEmpty()) {
+            System.out.println("Superhero found:\n");
+            for (Superhero s: db.searchSuperheroes(searchName)) {
+                System.out.println(s + "\n");
+            }
         } else {
             System.out.println("No superhero found with the name: " + searchName);
         }
