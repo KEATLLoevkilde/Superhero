@@ -38,7 +38,7 @@ public class Superhero {
         return superPower;
     }
 
-    public String isHuman() {
+    public String getIsHuman() {
         return isHuman;
     }
 
@@ -72,7 +72,7 @@ public class Superhero {
         this.creationYear = creationYear;
     }
 
-    public void setStrengh(int strenght) {
+    public void setStrengh(double strenght) {
         this.strengh = strenght;
     }
 
