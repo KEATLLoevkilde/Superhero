@@ -181,6 +181,16 @@ public class UserInterface {
         return temp;
     }
 
+    // TODO: 19-09-2022 readUserChoice
+//    public int readUserChoice(int userChoice) {
+//        if (userChoice < 1 || userChoice > 9) {
+//            System.out.println("User Choice must be between 1 and 9.");
+//            readInt();
+//        }
+//            return userChoice;
+//        }
+//    }
+
     public boolean readIsHuman() {
         String answer = sc.nextLine();
         while (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))){
