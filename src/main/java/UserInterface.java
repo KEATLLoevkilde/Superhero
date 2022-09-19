@@ -56,7 +56,8 @@ public class UserInterface {
         String superPower = sc.nextLine();
 
         System.out.print("Is the superhero human? (Yes/No): ");
-        String isHuman = sc.nextLine();
+
+        boolean isHuman = readIsHuman();
 
         System.out.print("Type in creationYear: ");
         int creationYear = readInt();
@@ -128,10 +129,10 @@ public class UserInterface {
                 editSuperhero.setSuperPower(newSuperpower);
             }
 
-            System.out.println("Is human: " + editSuperhero.getIsHuman());
+            System.out.println("Is human: " + editSuperhero.printIsHuman());
             String newIsHuman = sc.nextLine();
             if (!newIsHuman.isEmpty()){
-                editSuperhero.setIsHuman(newIsHuman);
+                editSuperhero.setIsHuman(Boolean.parseBoolean(newIsHuman));
             }
 
             System.out.println("Creation Year: " + editSuperhero.getCreationYear());
@@ -154,12 +155,6 @@ public class UserInterface {
             } else {
                 System.out.println("No superhero found with the name: " + searchName + "\n");
             }
-
-
-
-
-
-
     }
 
     public int readInt() {
@@ -184,6 +179,19 @@ public class UserInterface {
         double temp = sc.nextDouble();
         sc.nextLine();
         return temp;
+    }
+
+    public boolean readIsHuman() {
+        String answer = sc.nextLine();
+        while (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))){
+            System.out.println("You Typed: " + answer + "\nPLease type 'yes' or 'no'");
+            answer = sc.nextLine();
+        }
+        if (answer.equalsIgnoreCase("yes")){
+            return true;
+        } else {
+            return false;
+        }
     }
 
 

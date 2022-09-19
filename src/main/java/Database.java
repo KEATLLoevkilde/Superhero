@@ -10,7 +10,7 @@ public class Database {
 
     }
 
-    public void addSuperhero(String superheroName, String civilianName, String superPower, String isHuman, int creationYear, double strengh) {
+    public void addSuperhero(String superheroName, String civilianName, String superPower, boolean isHuman, int creationYear, double strengh) {
         superheroes.add(new Superhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh));
     }
 
