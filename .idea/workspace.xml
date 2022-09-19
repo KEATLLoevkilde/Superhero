@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="added editSuperhero to UserInterface.java&#10;+ fixes in Superhero.java setters" />
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Superhero delopgave 4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,8 @@
       <workItem from="1663146280969" duration="5653000" />
       <workItem from="1663154761012" duration="1941000" />
       <workItem from="1663237768346" duration="175000" />
-      <workItem from="1663237965314" duration="12040000" />
+      <workItem from="1663237965314" duration="12371000" />
+      <workItem from="1663568903874" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663251293497</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Superhero delopgave 4">
+      <created>1663251424294</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1663251424294</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +271,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added user interface in main" />
     <MESSAGE value="Added more user interface in main" />
     <MESSAGE value="Added Database class with addSuperhero() and getSuperhero().&#10;updated main to use Database methods." />
     <MESSAGE value="Added Database class with addSuperhero() and getSuperhero()." />
@@ -285,6 +295,7 @@
     <MESSAGE value="Added UserInterface.java" />
     <MESSAGE value="updated searchSup..()&#10;updated UI" />
     <MESSAGE value="added editSuperhero to UserInterface.java&#10;+ fixes in Superhero.java setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="added editSuperhero to UserInterface.java&#10;+ fixes in Superhero.java setters" />
+    <MESSAGE value="Superhero delopgave 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Superhero delopgave 4" />
   </component>
 </project>

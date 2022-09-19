@@ -23,8 +23,7 @@ public class UserInterface {
                     9. End program.
                     """);
 
-            userChoice = sc.nextInt();
-            sc.nextLine();
+            userChoice = readInt();
 
             handleUserChoice(userChoice);
 
@@ -40,6 +39,7 @@ public class UserInterface {
 
         } else if (userChoice == 3) {
             searchSuperheroes();
+
         } else if (userChoice == 4) {
             editSuperhero();
         }
@@ -59,12 +59,12 @@ public class UserInterface {
         String isHuman = sc.nextLine();
 
         System.out.print("Type in creationYear: ");
-        String creationYear = sc.nextLine();
+        int creationYear = readInt();
 
         System.out.print("Type in strengh value: ");
-        String strengh = sc.nextLine();
+        double strengh = readDouble();
 
-        db.addSuperhero(superheroName, civilianName, superPower, isHuman, Integer.parseInt(creationYear), Double.parseDouble(strengh));
+        db.addSuperhero(superheroName, civilianName, superPower, isHuman, creationYear, strengh);
 
         System.out.println("\nSuperhero stored!");
         System.out.println('\n');
@@ -161,5 +161,30 @@ public class UserInterface {
 
 
     }
+
+    public int readInt() {
+        while(!sc.hasNextInt()) {
+            String text = sc.nextLine();
+            System.out.println();
+            System.out.println(text + " is not an int. Please try again.");
+            System.out.println();
+        }
+        int temp = sc.nextInt();
+        sc.nextLine();
+        return temp;
+    }
+
+    public double readDouble() {
+        while(!sc.hasNextDouble()) {
+            String text = sc.nextLine();
+            System.out.println();
+            System.out.println(text + " is not a decimal number. Please try again.");
+            System.out.println();
+        }
+        double temp = sc.nextDouble();
+        sc.nextLine();
+        return temp;
+    }
+
 
 }
