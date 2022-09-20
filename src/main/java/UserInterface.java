@@ -13,7 +13,7 @@ public class UserInterface {
 
     public void startProgram() {
         int userChoice;
-        do {
+        while (true){
             System.out.println("""
                     VELCOME TO THE SUPERHERO DATABASE
                     1. Create superhero.
@@ -26,7 +26,7 @@ public class UserInterface {
             userChoice = readInt();
             handleUserChoice(userChoice);
 
-        }while (userChoice != 9);
+        }
     }
 
     public void handleUserChoice(int userChoice) {
@@ -41,8 +41,10 @@ public class UserInterface {
 
         } else if (userChoice == 4) {
             editSuperhero();
+        } else if (userChoice == 9) {
+            System.exit(0);
         } else {
-            System.out.println("Please type number 1-4 or 9\n");
+            System.out.println("Please type a valid number\n");
         }
     }
 
@@ -162,7 +164,7 @@ public class UserInterface {
         while(!sc.hasNextInt()) {
             String text = sc.nextLine();
             System.out.println();
-            System.out.println(text + " is not an int. Please try again.");
+            System.out.println(text + " is not a whole number. Please try again.");
             System.out.println();
         }
         int temp = sc.nextInt();
@@ -185,7 +187,7 @@ public class UserInterface {
     public boolean readIsHuman() {
         String answer = sc.nextLine();
         while (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))){
-            System.out.println("You Typed: " + answer + "\nPLease type 'yes' or 'no'");
+            System.out.println("You Typed: " + answer + "\nPlease type 'yes' or 'no'");
             answer = sc.nextLine();
         }
         if (answer.equalsIgnoreCase("yes")){

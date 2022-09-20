@@ -4,10 +4,8 @@ public class Database {
     private ArrayList<Superhero> superheroes;
 
 
-
     public Database() {
         superheroes = new ArrayList<>();
-
     }
 
     public void addSuperhero(String superheroName, String civilianName, String superPower, boolean isHuman, int creationYear, double strengh) {
