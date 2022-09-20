@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="isHuman changed to boolean">
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Superhero del 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
     </list>
@@ -55,7 +55,9 @@
       <workItem from="1663154761012" duration="1941000" />
       <workItem from="1663237768346" duration="175000" />
       <workItem from="1663237965314" duration="12371000" />
-      <workItem from="1663568903874" duration="10366000" />
+      <workItem from="1663568903874" duration="10516000" />
+      <workItem from="1663590703204" duration="434000" />
+      <workItem from="1663669724233" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -267,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663580976763</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Superhero del 5">
+      <created>1663582288644</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663582288644</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +294,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Database class with addSuperhero() and getSuperhero()." />
     <MESSAGE value="Added user interface with loop to ask for superhero" />
     <MESSAGE value="changed get superhero parametername to index" />
     <MESSAGE value="changed nextLine to next in main" />
@@ -310,6 +318,7 @@
     <MESSAGE value="Superhero delopgave 4" />
     <MESSAGE value="added readDouble(), readInt() to UI" />
     <MESSAGE value="isHuman changed to boolean" />
-    <option name="LAST_COMMIT_MESSAGE" value="isHuman changed to boolean" />
+    <MESSAGE value="Superhero del 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Superhero del 5" />
   </component>
 </project>
