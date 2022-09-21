@@ -13,9 +13,9 @@ public class Superhero {
         this.isHuman = isHuman;
         this.creationYear = creationYear;
         this.strengh = strengh;
-
     }
 
+    //Copy-constructor
     public Superhero(Superhero source) {
         this.superheroName = source.superheroName;
         this.civilianName = source.civilianName;
@@ -76,6 +76,7 @@ public class Superhero {
         this.strengh = strenght;
     }
 
+    //Returns Yes or NO to the user, instead of true/false.
     public String printIsHuman() {
         if (getIsHuman() == true) {
             return "Yes";

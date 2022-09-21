@@ -79,7 +79,7 @@ class DatabaseTest {
 
     @Test
     void deleteSuperhero(){
-        int expectedSize = 2;
+        int expectedSize = 0;
 
         superheroes.addSuperhero("sup1", "c1", "p1", true, 1, 1);
         superheroes.addSuperhero("sup2", "c2", "p2", true, 2, 2);
@@ -87,7 +87,7 @@ class DatabaseTest {
 
         superheroes.deleteSuperhero("sup1");
 
-        int actualSize = superheroes.getAllSuperheroes().size();
+        int actualSize = superheroes.searchSuperheroes("sup1").size();
 
         assertEquals(expectedSize, actualSize);
     }
