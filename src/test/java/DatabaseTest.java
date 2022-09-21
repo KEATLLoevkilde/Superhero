@@ -9,37 +9,40 @@ class DatabaseTest {
     @BeforeEach
     public void setup(){
         superheroes = new Database();
+        superheroes.addSuperhero("s1", "c1", "p1", true, 1, 1);
+        superheroes.addSuperhero("s2", "c2", "p2", true, 2, 2);
+        superheroes.addSuperhero("s3", "c3", "p3", true, 3, 3);
     }
 
 
     @Test
     void addOneSuperhero(){
         //Arrange
-        int expectedSize = 1;
+        int expectedSize = 4;
 
         //Act
-        superheroes.addSuperhero("s1", "c1", "p1", true, 1, 1);
+        superheroes.addSuperhero("s4", "c4", "p4", true, 4, 4);
 
-        int size = superheroes.getAllSuperheroes().size();
+        int actualSize = superheroes.getAllSuperheroes().size();
 
         //Assert
-        assertEquals(expectedSize, size);
+        assertEquals(expectedSize, actualSize);
     }
 
     @Test
     void addMultipleSuperheroes() {
         //Arrange
-        int expectedSize = 3;
+        int expectedSize = 6;
 
         //Act
-        superheroes.addSuperhero("s1", "c1", "p1", true, 1, 1);
-        superheroes.addSuperhero("s2", "c2", "p2", true, 2, 2);
-        superheroes.addSuperhero("s3", "c3", "p3", true, 3, 3);
+        superheroes.addSuperhero("s4", "c4", "p4", true, 4, 4);
+        superheroes.addSuperhero("s5", "c5", "p5", true, 5, 5);
+        superheroes.addSuperhero("s6", "c6", "p6", true, 6, 6);
 
-        int size = superheroes.getAllSuperheroes().size();
+        int actualSize = superheroes.getAllSuperheroes().size();
 
         //Assert
-        assertEquals(expectedSize, size);
+        assertEquals(expectedSize, actualSize);
     }
 
     @Test
@@ -47,10 +50,9 @@ class DatabaseTest {
         //Arrange
         int expectedSize = 0;
         //Act
-        superheroes.addSuperhero("s1", "c1", "p1", true, 1, 1);
-        int size = superheroes.searchSuperheroes("WrongName").size();
+        int actualSize = superheroes.searchSuperheroes("WrongName").size();
         //Assert
-        assertEquals(expectedSize, size);
+        assertEquals(expectedSize, actualSize);
     }
 
     @Test
@@ -58,10 +60,9 @@ class DatabaseTest {
         //Arrange
         int expectedSize = 1;
         //Act
-        superheroes.addSuperhero("s1", "c1", "p1", true, 1, 1);
-        int size = superheroes.searchSuperheroes("s1").size();
+        int actualSize = superheroes.searchSuperheroes("s1").size();
         //Assert
-        assertEquals(expectedSize, size);
+        assertEquals(expectedSize, actualSize);
     }
 
     @Test
@@ -69,25 +70,18 @@ class DatabaseTest {
         //Arrange
         int expectedSize = 3;
         //Act
-        superheroes.addSuperhero("sup1", "c1", "p1", true, 1, 1);
-        superheroes.addSuperhero("sup2", "c2", "p2", true, 2, 2);
-        superheroes.addSuperhero("sup3", "c3", "p3", true, 3, 3);
-        int size = superheroes.searchSuperheroes("sup").size();
+        int actualSize = superheroes.searchSuperheroes("s").size();
         //Assert
-        assertEquals(expectedSize, size);
+        assertEquals(expectedSize, actualSize);
     }
 
     @Test
     void deleteSuperhero(){
         int expectedSize = 0;
 
-        superheroes.addSuperhero("sup1", "c1", "p1", true, 1, 1);
-        superheroes.addSuperhero("sup2", "c2", "p2", true, 2, 2);
-        superheroes.addSuperhero("sup3", "c3", "p3", true, 3, 3);
+        superheroes.deleteSuperhero("s1");
 
-        superheroes.deleteSuperhero("sup1");
-
-        int actualSize = superheroes.searchSuperheroes("sup1").size();
+        int actualSize = superheroes.searchSuperheroes("s1").size();
 
         assertEquals(expectedSize, actualSize);
     }

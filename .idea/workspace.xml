@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Superhero delopgave 7&#10;Added deleteSuperhero + Test">
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Superhero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Superhero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
     </list>
     <list id="ae485a04-2370-4afc-a444-231f95f02730" name="Changes by Asger_studie" comment="" />
@@ -123,7 +122,7 @@
       <workItem from="1663590703204" duration="434000" />
       <workItem from="1663669724233" duration="9451000" />
       <workItem from="1663685113457" duration="391000" />
-      <workItem from="1663741497418" duration="6505000" />
+      <workItem from="1663741497418" duration="7636000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -363,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663751570638</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero">
+      <created>1663752887094</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1663752887094</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Main: instancieted variables in loop" />
     <MESSAGE value="Main: &#10;next() to nextLine()&#10;Better String in welcome screen&#10;System.exit instead of break" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="superheroes is ArrayList" />
@@ -406,6 +411,7 @@
     <MESSAGE value="fixed illigal argument in menu" />
     <MESSAGE value="Superhero delopgave 6&#10;Added DatabaseTest.java" />
     <MESSAGE value="Superhero delopgave 7&#10;Added deleteSuperhero + Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Superhero delopgave 7&#10;Added deleteSuperhero + Test" />
+    <MESSAGE value="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero" />
   </component>
 </project>
