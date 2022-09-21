@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero">
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Superhero delopgave 7 new&#10;added deleteSuperhero() to UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
     </list>
     <list id="ae485a04-2370-4afc-a444-231f95f02730" name="Changes by Asger_studie" comment="" />
-    <list id="7153293e-6892-4b42-b80a-85fa1ce9a3e1" name="Changes by hamza" comment="" />
+    <list id="7153293e-6892-4b42-b80a-85fa1ce9a3e1" name="Changes by hamza" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/UserInterface.java">
+      <ranges>
+        <range start1="44" end1="44" start2="44" end2="48" changelist="7153293e-6892-4b42-b80a-85fa1ce9a3e1" />
+        <range start1="111" end1="111" start2="115" end2="116" changelist="e89958f4-be57-4e26-b20b-05048ed99d56" />
+        <range start1="175" end1="177" start2="180" end2="182" changelist="e89958f4-be57-4e26-b20b-05048ed99d56" />
+        <range start1="179" end1="180" start2="184" end2="185" changelist="e89958f4-be57-4e26-b20b-05048ed99d56" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,17 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -54,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
+  <component name="RunManager">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Superhero" />
       <option name="PACKAGE_NAME" value="" />
@@ -122,7 +134,8 @@
       <workItem from="1663590703204" duration="434000" />
       <workItem from="1663669724233" duration="9451000" />
       <workItem from="1663685113457" duration="391000" />
-      <workItem from="1663741497418" duration="7636000" />
+      <workItem from="1663741497418" duration="10837000" />
+      <workItem from="1663758695357" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -369,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663752887094</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Clean up in DatabaseTest.java">
+      <created>1663753959635</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1663753959635</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Superhero delopgave 7 new&#10;added deleteSuperhero() to UI">
+      <created>1663756452963</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1663756452963</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,8 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Main: &#10;next() to nextLine()&#10;Better String in welcome screen&#10;System.exit instead of break" />
-    <MESSAGE value="gitignore" />
     <MESSAGE value="superheroes is ArrayList" />
     <MESSAGE value="added getAllSuperheroes + option 2. in start menu" />
     <MESSAGE value="isHuman is now a String" />
@@ -412,6 +437,8 @@
     <MESSAGE value="Superhero delopgave 6&#10;Added DatabaseTest.java" />
     <MESSAGE value="Superhero delopgave 7&#10;Added deleteSuperhero + Test" />
     <MESSAGE value="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero" />
+    <MESSAGE value="Clean up in DatabaseTest.java" />
+    <MESSAGE value="Superhero delopgave 7 new&#10;added deleteSuperhero() to UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Superhero delopgave 7 new&#10;added deleteSuperhero() to UI" />
   </component>
 </project>

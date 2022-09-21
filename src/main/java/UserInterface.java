@@ -20,6 +20,7 @@ public class UserInterface {
                     2. Display all superheroes.
                     3. Search superhero.
                     4. Edit superhero.
+                    5. Delete superhero
                     9. End program.
                     """);
 
@@ -108,9 +109,10 @@ public class UserInterface {
                 System.out.println(i + 1 + ".\n" + seachResult.get(i));
                 System.out.println();
                 }
+
             System.out.println("Type number of superhero you wish to edit");
-            String heroNumber = sc.nextLine();
-            Superhero editSuperhero = seachResult.get(Integer.parseInt(heroNumber) - 1);
+            int heroNumber = readInt();
+            Superhero editSuperhero = seachResult.get(heroNumber - 1);
 
             System.out.println("Type new data and press ENTER. If you do not wish to edit data press Enter.");
 
@@ -158,6 +160,30 @@ public class UserInterface {
             } else {
                 System.out.println("No superhero found with the name: " + searchName + "\n");
             }
+    }
+
+    public void deleteSuperhero(){
+        System.out.println("Type in name of superhero you wish to delete: ");
+        String searchName = sc.nextLine();
+        ArrayList<Superhero> seachResult = db.searchSuperheroes(searchName);
+        if (!seachResult.isEmpty()) {
+            System.out.println("Superheroes found\n\n");
+            for (int i = 0; i < seachResult.size(); i++) {
+                System.out.println(i + 1 + ".\n" + seachResult.get(i));
+                System.out.println();
+            }
+            System.out.println("Type number of superhero you wish to delete");
+            int heroNumber = readInt();
+            Superhero superheroToDelete = seachResult.get(heroNumber - 1);
+            System.out.println("Are you sure you want to delete the superhero: " + superheroToDelete.getSuperheroName() + "? (y/n)");
+            String answer = sc.nextLine();
+            if (answer.equalsIgnoreCase("y")) {
+                db.deleteSuperhero(superheroToDelete.getSuperheroName());
+                System.out.println("Superhero deleted\n");
+            }
+        } else {
+            System.out.println("No superhero found with the name: " + searchName + "\n");
+        }
     }
 
     public int readInt() {
