@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="fixed illigal argument in menu">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Superhero delopgave 6&#10;Added DatabaseTest.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
     </list>
+    <list id="ae485a04-2370-4afc-a444-231f95f02730" name="Changes by Asger_studie" comment="" />
+    <list id="7153293e-6892-4b42-b80a-85fa1ce9a3e1" name="Changes by hamza" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
@@ -54,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
+  <component name="RunManager" selected="JUnit.DatabaseTest.deleteSuperhero">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Superhero" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseTest.deleteSuperhero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Superhero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <option name="METHOD_NAME" value="deleteSuperhero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DatabaseTest.searchSuperheroesOneMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Superhero" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseTest.deleteSuperhero" />
         <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.DatabaseTest.searchSuperheroesOneMatch" />
         <item itemvalue="JUnit.DatabaseTest.addMultipleSuperheroes" />
@@ -110,6 +122,8 @@
       <workItem from="1663568903874" duration="10516000" />
       <workItem from="1663590703204" duration="434000" />
       <workItem from="1663669724233" duration="9451000" />
+      <workItem from="1663685113457" duration="391000" />
+      <workItem from="1663741497418" duration="5171000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -335,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663671069635</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Superhero delopgave 6&#10;Added DatabaseTest.java">
+      <created>1663685278673</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1663685278673</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed get superhero parametername to index" />
     <MESSAGE value="changed nextLine to next in main" />
     <MESSAGE value="Main: instancieted variables in loop" />
     <MESSAGE value="Main: &#10;next() to nextLine()&#10;Better String in welcome screen&#10;System.exit instead of break" />
@@ -378,6 +398,7 @@
     <MESSAGE value="isHuman changed to boolean" />
     <MESSAGE value="Superhero del 5" />
     <MESSAGE value="fixed illigal argument in menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed illigal argument in menu" />
+    <MESSAGE value="Superhero delopgave 6&#10;Added DatabaseTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Superhero delopgave 6&#10;Added DatabaseTest.java" />
   </component>
 </project>

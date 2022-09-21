@@ -76,4 +76,19 @@ class DatabaseTest {
         //Assert
         assertEquals(expectedSize, size);
     }
+
+    @Test
+    void deleteSuperhero(){
+        int expectedSize = 2;
+
+        superheroes.addSuperhero("sup1", "c1", "p1", true, 1, 1);
+        superheroes.addSuperhero("sup2", "c2", "p2", true, 2, 2);
+        superheroes.addSuperhero("sup3", "c3", "p3", true, 3, 3);
+
+        superheroes.deleteSuperhero("sup1");
+
+        int actualSize = superheroes.getAllSuperheroes().size();
+
+        assertEquals(expectedSize, actualSize);
+    }
 }

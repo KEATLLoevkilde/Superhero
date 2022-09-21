@@ -26,7 +26,16 @@ public class Database {
         }
         return searchResult;
     }
-
+    
+    public void deleteSuperhero(String superheroName) {
+        int foundIndex = - 1;
+        for (int i = 0; i < superheroes.size(); i++) {
+            if (superheroes.get(i).getSuperheroName().equals(superheroName)) {
+                foundIndex = i;
+            }
+        }
+        superheroes.remove(foundIndex);
+    }
 }
 
 
