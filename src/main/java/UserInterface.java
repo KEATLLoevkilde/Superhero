@@ -42,7 +42,10 @@ public class UserInterface {
 
         } else if (userChoice == 4) {
             editSuperhero();
-        } else if (userChoice == 9) {
+        } else if (userChoice == 5) {
+            deleteSuperhero();
+        }
+        else if (userChoice == 9) {
             System.exit(0);
         } else {
             System.out.println("Please type a valid number\n");
