@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Clean up in DatabaseTest.java">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21-09-2022_13_22_[Changes_by_hamza]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21-09-2022_13_22__Changes_by_hamza_.xml" afterDir="false" />
+    <list default="true" id="e89958f4-be57-4e26-b20b-05048ed99d56" name="Changes" comment="Superhero delopgave 7 new new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInterface.java" afterDir="false" />
     </list>
     <list id="ae485a04-2370-4afc-a444-231f95f02730" name="Changes by Asger_studie" comment="" />
     <list id="7153293e-6892-4b42-b80a-85fa1ce9a3e1" name="Changes by hamza" comment="" />
@@ -125,7 +122,10 @@
       <workItem from="1663669724233" duration="9451000" />
       <workItem from="1663685113457" duration="391000" />
       <workItem from="1663741497418" duration="10009000" />
-      <workItem from="1663842094542" duration="321000" />
+      <workItem from="1663842094542" duration="1079000" />
+      <workItem from="1663846642812" duration="462000" />
+      <workItem from="1663848401838" duration="16000" />
+      <workItem from="1663850140714" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1662972229867</created>
@@ -379,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663753959635</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Superhero delopgave 7 new new">
+      <created>1663842508389</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1663842508389</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitignore" />
     <MESSAGE value="superheroes is ArrayList" />
     <MESSAGE value="added getAllSuperheroes + option 2. in start menu" />
     <MESSAGE value="isHuman is now a String" />
@@ -422,6 +428,7 @@
     <MESSAGE value="Superhero delopgave 7&#10;Added deleteSuperhero + Test" />
     <MESSAGE value="Added &#10;-comments in Superhero.java&#10;-search in @Test deleteSuperhero" />
     <MESSAGE value="Clean up in DatabaseTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up in DatabaseTest.java" />
+    <MESSAGE value="Superhero delopgave 7 new new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Superhero delopgave 7 new new" />
   </component>
 </project>
